@@ -167,7 +167,6 @@ jobs:
     test_plan_api_base_url: # optional, default is https://mobile-app.autify.com/api/v1/test_plans/
           
             - name: Setup Java JDK
-  uses: actions/setup-java@v4.5.0
   with:
     # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
     java-version: # optional
